@@ -2,7 +2,7 @@
 
 </br>
 
-1. **Core Commands:**
+## 1. **Core Commands:**
 
 - SELECT: Retrieve data from a table  
 - WHERE: Filter results based on conditions  
@@ -15,14 +15,14 @@
 - UPDATE: Modify existing records  
 - DELETE: Remove records  
 
-2. **Joins:**
+## 2. **Joins:**
 
 - INNER JOIN: Matching rows in both tables  
 - LEFT JOIN: All rows from left + matches from right  
 - RIGHT JOIN: All rows from right + matches from left  
 - FULL JOIN: All rows from both tables  
 
-3. **Functions:**
+## 3. **Functions:**
 
 - COUNT(): Count rows  
 - SUM(): Total of values  
@@ -31,7 +31,7 @@
 - NOW(): Current date & time  
 - COALESCE(): Return first non-null value
  
-4. **Advanced:**
+## 4. **Advanced:**
 
 - CASE: Conditional logic in queries  
 - SUBQUERY: Query inside another query  
