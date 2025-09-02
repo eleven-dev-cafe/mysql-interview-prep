@@ -2,7 +2,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/eleven-dev-cafe/mysql-interview-prep?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/eleven-dev-cafe/mysql-interview-prep?style=social)
-![License](https://img.shields.io/github/license/eleven-dev-cafe/mysql-interview-prep)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 > Comprehensive MySQL interview prep with queries, challenges, and solutions.
