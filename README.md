@@ -3,9 +3,11 @@
 ![GitHub stars](https://img.shields.io/github/stars/eleven-dev-cafe/mysql-interview-prep?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/eleven-dev-cafe/mysql-interview-prep?style=social)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)(CONTRIBUTING.md)
+[![Made with MySQL](https://img.shields.io/badge/Made%20with-MySQL-blue.svg)](https://www.mysql.com/)
 
-> Comprehensive MySQL interview prep with queries, challenges, and solutions.
+A structured collection of **SQL challenges and solutions** to help you practice and prepare for **MySQL interview questions**.  
+Includes schema setup, sample data, challenges, solutions, and detailed documentation.
 
 </br>
 
@@ -34,9 +36,29 @@ git clone https://github.com\eleven-dev-cafe/mysql-interview-prep.git
 cd mysql-interview-prep
 ```
 
-### 2️⃣ Setup Database
-```bash
+### 2️⃣ Setup the Database
+Run these commands in your terminal (**outside** MySQL client):
+
+**For CMD (Windows):**
+```cmd
+mysql -u root -p -e "CREATE DATABASE interview_prep;"
+mysql -u root -p interview_prep < setup\schema.sql
+mysql -u root -p interview_prep < setup\sample-data.sql
+```
+
+**For PowerShell:**
+```cmd
+mysql -u root -p -e "CREATE DATABASE interview_prep;"
+Get-Content .\setup\schema.sql | mysql -u root -p interview_prep
+Get-Content .\setup\sample-data.sql | mysql -u root -p interview_prep
+```
+
+**From MySQL Client:**
+```cmd
 CREATE DATABASE interview_prep;
+USE interview_prep;
+SOURCE setup/schema.sql;
+SOURCE setup/sample-data.sql;
 ```
 
 ### 3️⃣ Load Schema & Data
