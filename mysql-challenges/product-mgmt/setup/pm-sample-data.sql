@@ -1,25 +1,38 @@
--- Insert into customers
+
+-- ==========================
+-- Sample Data
+-- ==========================
+
+-- Customers
 INSERT INTO customers (name, email, phone, total_spent, created_at) VALUES
 ('Alex', 'alex@mail.com', '1234567890', 1200.50, '2024-07-10'),
 ('Ben', 'ben@mail.com', NULL, 600.00, '2024-07-12'),
 ('Clara', 'clara@mail.com', '9876543210', 400.75, '2024-07-15'),
-('Alex', 'alex@mail.com', '1234567890', 800.00, '2024-07-18'); -- duplicate email
+('Alex', 'alex@mail.com', '1234567890', 800.00, '2024-07-18'); -- duplicate email for challenge 02
 
--- Insert into products
+-- Products
 INSERT INTO products (name, price, region) VALUES
 ('Laptop', 800.00, 'North'),
 ('Phone', 500.00, 'South'),
 ('Tablet', 300.00, 'East'),
 ('Monitor', 200.00, 'West');
 
--- Insert into orders
+-- Orders
 INSERT INTO orders (customer_id, amount, order_date) VALUES
 (1, 200.00, '2024-08-01'),
 (1, 500.00, '2024-08-03'),
 (2, 100.00, '2024-08-02'),
 (3, 150.00, '2024-08-05');
 
--- Insert into sales
+-- Order Items (link products with orders)
+INSERT INTO order_items (order_id, product_id, quantity, price) VALUES
+(1, 2, 1, 500.00),   -- order 1 -> Phone
+(1, 4, 2, 200.00),   -- order 1 -> 2 Monitors
+(2, 1, 1, 800.00),   -- order 2 -> Laptop
+(3, 3, 1, 300.00),   -- order 3 -> Tablet
+(4, 2, 1, 500.00);   -- order 4 -> Phone
+
+-- Sales
 INSERT INTO sales (product_id, amount, date, region) VALUES
 (1, 800.00, '2024-08-01', 'North'),
 (2, 500.00, '2024-08-02', 'South'),

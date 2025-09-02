@@ -1,16 +1,13 @@
-### Challenge 01: Find Duplicate Emails
+/*
+Solution 02: Duplicate Emails
 
-**Table: users**
+Explanation:
+1. SELECT email, COUNT(*) → Count how many times each email appears
+2. GROUP BY email → Group rows by unique email
+3. HAVING COUNT(*) > 1 → Keep only emails that occur more than once
+*/
 
-| user_id | name   | email              |
-|---------|--------|--------------------|
-| 1       | Alex   | alex@mail.com      |
-| 2       | Ben    | ben@mail.com       |
-| 3       | Clara  | alex@mail.com      |
-
-**SQL Query**
-```sql
-SELECT email, COUNT(*)
-FROM users
+SELECT email, COUNT(*) AS count
+FROM Customers
 GROUP BY email
 HAVING COUNT(*) > 1;

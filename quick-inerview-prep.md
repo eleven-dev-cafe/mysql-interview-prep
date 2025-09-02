@@ -13,12 +13,12 @@ WHERE salary < (SELECT MAX(salary) FROM Employees);
 
 </br>
 
-## 2. Find duplicate emails in a users table  
-**Table:** `Users(id, email)`  
+## 2. Find duplicate emails in a customer table  
+**Table:** `customers(id, email)`  
 
 ```sql
 SELECT email, COUNT(*) AS count
-FROM Users
+FROM Customers
 GROUP BY email
 HAVING COUNT(*) > 1;
 ```

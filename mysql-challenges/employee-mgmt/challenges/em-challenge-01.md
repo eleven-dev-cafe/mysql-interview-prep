@@ -43,5 +43,5 @@ List all employees along with their department name.
 ---
 
 ## Hint
-- Use **JOIN** to combine employees and departments.  
-- Remember to sort the results by department name.
+> Use **JOIN** to combine employees and departments.  
+> Remember to sort the results by department name.
