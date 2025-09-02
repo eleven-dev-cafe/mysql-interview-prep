@@ -20,23 +20,23 @@ Run these commands in your terminal (**outside** MySQL client):
 **For CMD (Windows):**
 ```cmd
 mysql -u root -p -e "CREATE DATABASE product_db;"
-mysql -u root -p product_db < setup\em-schema.sql
-mysql -u root -p product_db < setup\em-sample-data.sql
+mysql -u root -p product_db < setup\pm-schema.sql
+mysql -u root -p product_db < setup\pm-sample-data.sql
 ```
 
 **For PowerShell:**
 ```cmd
 mysql -u root -p -e "CREATE DATABASE product-db;"
-Get-Content .\setup\schema.sql | mysql -u root -p product-dbp
-Get-Content .\setup\sample-data.sql | mysql -u root -p product-db
+Get-Content .\setup\pm-schema.sql | mysql -u root -p product-dbp
+Get-Content .\setup\pm-sample-data.sql | mysql -u root -p product-db
 ```
 
 **From MySQL Client:**
 ```cmd
 CREATE DATABASE product-db;
 USE product-db;
-SOURCE setup/schema.sql;
-SOURCE setup/sample-data.sql;
+SOURCE setup/pm-schema.sql;
+SOURCE setup/pm-sample-data.sql;
 ```
 
 ### 3️⃣Run All Challenge Query(Practice out)
