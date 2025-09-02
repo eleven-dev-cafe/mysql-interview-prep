@@ -16,7 +16,7 @@ CREATE TABLE customers (
     email VARCHAR(100), -- allow duplicates (for duplicate email challenge)
     phone VARCHAR(20),
     total_spent DECIMAL(10,2) DEFAULT 0.00,
-    created_at DATE DEFAULT CURRENT_DATE
+    created_at DATE DEFAULT (CURRENT_DATE)
 );
 
 -- Create Products table

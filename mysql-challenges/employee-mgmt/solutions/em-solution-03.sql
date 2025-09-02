@@ -9,8 +9,9 @@ Explanation:
 */
 
 SELECT
-    e.id,
-    e.name
+    e.employee_id,
+    e.first_name,
+    e.last_name
 FROM Employees e
 LEFT JOIN Managers m
     ON e.manager_id = m.manager_id
