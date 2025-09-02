@@ -33,7 +33,7 @@ Follow these steps to set up the database and practice queries:
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com\eleven-dev-cafe/mysql-interview-prep.git
-cd mysql-interview-prep
+cd mysql-interview-prep\mysql-challenges\employee-mgmt
 ```
 
 ### 2️⃣ Setup the Database
@@ -41,9 +41,9 @@ Run these commands in your terminal (**outside** MySQL client):
 
 **For CMD (Windows):**
 ```cmd
-mysql -u root -p -e "CREATE DATABASE interview_prep;"
-mysql -u root -p interview_prep < setup\schema.sql
-mysql -u root -p interview_prep < setup\sample-data.sql
+mysql -u root -p -e "CREATE DATABASE employee-db;"
+mysql -u root -p employee_db < setup\em-schema.sql
+mysql -u root -p employee_db < setup\em-sample-data.sql
 ```
 
 **For PowerShell:**
@@ -61,15 +61,8 @@ SOURCE setup/schema.sql;
 SOURCE setup/sample-data.sql;
 ```
 
-### 3️⃣ Load Schema & Data
-```bash
-mysql -u root -p interview_prep < setup\schema.sql
-mysql -u root -p interview_prep < setup\sample-data.sql
-```
-
-### 4️⃣ Run a Challenge Query (Top 5 Products)
+### 3️⃣Run a Challenge Query (Top 5 Products)
 ```bash
 mysql -u root -p interview_prep < challanges\01-find-duplicates.sql
 ```
 
-### 5️⃣ Expected Output (Example)
