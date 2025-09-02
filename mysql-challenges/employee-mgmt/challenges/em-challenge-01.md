@@ -11,7 +11,7 @@ List all employees along with their department name.
 
 **Sort results by** `department_name`.
 
----
+</br>
 
 ## Sample Tables
 
@@ -30,7 +30,7 @@ List all employees along with their department name.
 | 103         | Charlie    | Brown     | 1             |
 | 104         | Diana      | Prince    | 3             |
 
----
+</br>
 
 ## Example Output
 | employee_id | first_name | last_name | department_name |
@@ -40,7 +40,7 @@ List all employees along with their department name.
 | 102         | Bob        | Smith     | HR             |
 | 104         | Diana      | Prince    | Sales          |
 
----
+</br>
 
 ## Hint
 > Use **JOIN** to combine employees and departments.  

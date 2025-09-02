@@ -40,12 +40,27 @@ SOURCE setup/sample-data.sql;
 ```
 
 ### 3️⃣Run All Challenge Query(Practice out)
-**Challenge 01:** `Find duplicate email of customer`
+**Challenge 01:** `Duplicate Emails`
 ```bash
-mysql -u root -p product-db < challanges\pm-challenge-01.sql
+mysql -u root -p product_db < challanges\pm-solution-01.sql
 ```
 
-**Challenge 02:** `Find Employees in Each Department`
+**Challenge 02:** `Customers With More Than 3 Orders`
 ```bash
-mysql -u root -p product-db < challanges\pm-challenge-02.sql
+mysql -u root -p product_db < challanges\pm-solution-02.sql
+```
+
+**Challenge 03:** `Customers With No Orders`
+```bash
+mysql -u root -p product_db < challanges\pm-solution-03.sql
+```
+
+**Challenge 04:** `Top 5 Highest Selling Products`
+```bash
+mysql -u root -p product_db < challanges\pm-solution-04.sql
+```
+
+**Challenge 05:** `Total Revenue by Region and Product`
+```bash
+mysql -u root -p product_db < challanges\pm-solution-05.sql
 ```

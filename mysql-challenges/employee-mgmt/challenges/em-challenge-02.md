@@ -6,7 +6,7 @@ Retrieve the **second highest salary** from the `Employees` table.
 **Columns to display:**  
 - `second_highest_salary`  
 
----
+</br>
 
 ## Sample Table  
 
@@ -18,14 +18,14 @@ Retrieve the **second highest salary** from the `Employees` table.
 | 3   | Charlie  | 6000   |  
 | 4   | Diana    | 8000   |  
 
----
+</br>
 
 ## Example Output  
 | second_highest_salary |  
 |-----------------------|  
 | 7000                  |  
 
----
+</br>
 
 ## Hint  
 > Use a **subquery** to first find the maximum salary.  

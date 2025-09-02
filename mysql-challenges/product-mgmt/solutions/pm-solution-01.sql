@@ -1,5 +1,5 @@
 /*
-Solution 02: Duplicate Emails
+Solution 01: Duplicate Emails
 
 Explanation:
 1. SELECT email, COUNT(*) → Count how many times each email appears

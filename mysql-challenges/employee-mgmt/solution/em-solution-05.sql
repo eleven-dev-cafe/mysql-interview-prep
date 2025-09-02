@@ -1,5 +1,5 @@
 /*
-Solution 09: Male and Female Count per Department
+Solution 05: Male and Female Count per Department
 
 Explanation:
 1. SELECT department → Group results by department
