@@ -1,4 +1,4 @@
-# 📄 Real-World SQL Interview Questions with Answers  
+# 📄 Real-World SQL Interview Questions with Queries  
 
 </br>
 
@@ -209,7 +209,7 @@ WHERE order_date >= CURRENT_DATE - INTERVAL '30 days';
 
 </br>
 
-## 9. Get total revenue by region and product
+## 17. Get total revenue by region and product
 **Table:**  `sales(sale_id, region, product_id, amount)`
 
 ```sql
