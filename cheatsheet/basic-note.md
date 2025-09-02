@@ -13,7 +13,9 @@
 - UNION: Merge results from two SELECTs  
 - INSERT INTO: Add new records  
 - UPDATE: Modify existing records  
-- DELETE: Remove records  
+- DELETE: Remove records
+- DROP: Delete Tables, Databases
+- ALTER: To INSERT/UPDATE/ADD/DELETE/DROP/RENAME to table
 
 ## 2. **Joins:**
 
