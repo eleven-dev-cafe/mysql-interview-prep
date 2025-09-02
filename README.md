@@ -3,11 +3,10 @@
 ![GitHub stars](https://img.shields.io/github/stars/eleven-dev-cafe/mysql-interview-prep?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/eleven-dev-cafe/mysql-interview-prep?style=social)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)(CONTRIBUTING.md)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 [![Made with MySQL](https://img.shields.io/badge/Made%20with-MySQL-blue.svg)](https://www.mysql.com/)
 
-A structured collection of **SQL challenges and solutions** to help you practice and prepare for **MySQL interview questions**.  
-Includes schema setup, sample data, challenges, solutions, and detailed documentation.
+> A curated set of MySQL challenges with solutions, schemas, and sample data for interview preparation.
 
 </br>
 
@@ -25,44 +24,44 @@ Perfect for developers preparing for **Data Analyst, Backend, or Full-Stack inte
 
 </br>
 
-## ⚡Quick Start
+## 📘 MySQL Challenge Guide 
 
-Follow these steps to set up the database and practice queries:
+👉 Check out the full guide here: [Sample Guide](mysql-challenges/sample-guid.md)  
+This guide explains how to:  
+- Set up the database  
+- Load sample data  
+- Run and test queries  
+- Explore challenge files  
+
 </br>
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com\eleven-dev-cafe/mysql-interview-prep.git
-cd mysql-interview-prep\mysql-challenges\employee-mgmt
-```
+## 🤝 Contribution  
 
-### 2️⃣ Setup the Database
-Run these commands in your terminal (**outside** MySQL client):
+We welcome contributions! 🚀  
 
-**For CMD (Windows):**
-```cmd
-mysql -u root -p -e "CREATE DATABASE employee-db;"
-mysql -u root -p employee_db < setup\em-schema.sql
-mysql -u root -p employee_db < setup\em-sample-data.sql
-```
+1. Fork the repository  
+2. Create a new branch (`feature/new-challenge`)  
+3. Commit your changes  
+4. Push the branch and open a **Pull Request**  
 
-**For PowerShell:**
-```cmd
-mysql -u root -p -e "CREATE DATABASE interview_prep;"
-Get-Content .\setup\schema.sql | mysql -u root -p interview_prep
-Get-Content .\setup\sample-data.sql | mysql -u root -p interview_prep
-```
+Before contributing, please read the [CONTRIBUTING.md](CONTRIBUTING.md).  
 
-**From MySQL Client:**
-```cmd
-CREATE DATABASE interview_prep;
-USE interview_prep;
-SOURCE setup/schema.sql;
-SOURCE setup/sample-data.sql;
-```
+</br>
 
-### 3️⃣Run a Challenge Query (Top 5 Products)
-```bash
-mysql -u root -p interview_prep < challanges\01-find-duplicates.sql
-```
+## 👨‍💻 Maintainers  
+
+- **Gyarsilalsolanki** – [GitHub Profile](https://github.com/gyarsilalsolanki011)  
+
+</br>
+
+## 📜 License  
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
+
+</br>
+
+## ⭐ Support  
+
+If you find this project helpful, consider giving it a ⭐ to support! 
+
 
