@@ -3,7 +3,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/eleven-dev-cafe/mysql-interview-prep?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/eleven-dev-cafe/mysql-interview-prep?style=social)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/eleven-dev-cafe/.github/blob/main/CONTRIBUTING.md)
 [![Made with MySQL](https://img.shields.io/badge/Made%20with-MySQL-blue.svg)](https://www.mysql.com/)
 
 > A curated set of MySQL challenges with solutions, schemas, and sample data for interview preparation.
@@ -44,7 +44,7 @@ We welcome contributions! 🚀
 3. Commit your changes  
 4. Push the branch and open a **Pull Request**  
 
-Before contributing, please read the [CONTRIBUTING.md](CONTRIBUTING.md).  
+Before contributing, please read the [CONTRIBUTING.md](https://github.com/eleven-dev-cafe/.github/blob/main/CONTRIBUTING.md).  
 
 </br>
 
