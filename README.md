@@ -47,7 +47,7 @@ mysql -u root -p interview_prep < setup/sample-data.sql
 
 ### 4️⃣ Run a Challenge Query (Top 5 Products)
 ```bash
-mysql -u root -p interview_prep < challenges/01-find-dublicates.sql
+mysql -u root -p interview_prep < challanges/01-find-duplicates.sql
 ```
 
 ### 5️⃣ Expected Output (Example)
