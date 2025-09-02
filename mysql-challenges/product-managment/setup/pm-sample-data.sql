@@ -1,5 +1,5 @@
--- Insert into users
-INSERT INTO users (name, email, phone, total_spent, created_at) VALUES
+-- Insert into customers
+INSERT INTO customers (name, email, phone, total_spent, created_at) VALUES
 ('Alex', 'alex@mail.com', '1234567890', 1200.50, '2024-07-10'),
 ('Ben', 'ben@mail.com', NULL, 600.00, '2024-07-12'),
 ('Clara', 'clara@mail.com', '9876543210', 400.75, '2024-07-15'),
