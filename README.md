@@ -7,7 +7,7 @@
 
 > Comprehensive MySQL interview prep with queries, challenges, and solutions.
 
----
+</br>
 
 ## 📖 Overview
 
@@ -21,7 +21,33 @@ It contains:
 
 Perfect for developers preparing for **Data Analyst, Backend, or Full-Stack interviews**.
 
----
+</br>
 
-## 📂 Folder Structure
+## ⚡Quick Start
 
+Follow these steps to set up the database and practice queries:
+</br>
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/eleven-dev-cafe/mysql-interview-prep.git
+cd mysql-interview-prep
+```
+
+### 2️⃣ Setup Database
+```bash
+CREATE DATABASE interview_prep;
+```
+
+### 3️⃣ Load Schema & Data
+```bash
+mysql -u root -p interview_prep < setup/schema.sql
+mysql -u root -p interview_prep < setup/sample-data.sql
+```
+
+### 4️⃣ Run a Challenge Query (Top 5 Products)
+```bash
+mysql -u root -p interview_prep < challenges/01-find-dublicates.sql
+```
+
+### 5️⃣ Expected Output (Example)
