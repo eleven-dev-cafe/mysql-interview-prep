@@ -1,4 +1,4 @@
-# Challenge 02: Find Duplicate Emails in a Customer Table  
+# Challenge 01: Find Duplicate Emails in a Customer Table  
 
 ## Problem  
 Find all emails that appear more than once in the `customers` table.  
