@@ -48,9 +48,13 @@ Before contributing, please read the [CONTRIBUTING.md](https://github.com/eleven
 
 </br>
 
-## 👨‍💻 Maintainers  
+## 👨‍💻 Maintainer  
+`Gyarsilal Solanki`
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/gyarsilal-solanki) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/gyarsilalsolanki011)
 
-- **Gyarsilalsolanki** – [GitHub Profile](https://github.com/gyarsilalsolanki011)  
+  
+Join us to discuss ideas, share feedback, and coordinate contributions:  
+[![Join Discord](https://img.shields.io/discord/1405808666179014697?color=4CBB17&label=Join%20Us%20on%20Discord&logo=discord&logoColor=blue)](https://discord.gg/Zrc9x3ts)
 
 </br>
 
