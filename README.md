@@ -50,6 +50,7 @@ Before contributing, please read the [CONTRIBUTING.md](https://github.com/eleven
 
 ## 👨‍💻 Maintainer  
 `Gyarsilal Solanki`
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/gyarsilal-solanki) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/gyarsilalsolanki011)
 
   
