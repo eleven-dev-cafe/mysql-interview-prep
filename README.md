@@ -8,7 +8,7 @@
 
 > A curated set of MySQL challenges with solutions, schemas, and sample data for interview preparation.
 
-</br>
+<br>
 
 ## 📖 Overview
 
@@ -22,7 +22,7 @@ It contains:
 
 Perfect for developers preparing for **Data Analyst, Backend, or Full-Stack interviews**.
 
-</br>
+<br>
 
 ## 📘 MySQL Challenge Guide 
 
@@ -33,7 +33,7 @@ This guide explains how to:
 - Run and test queries  
 - Explore challenge files  
 
-</br>
+<br>
 
 ## 🤝 Contribution  
 
@@ -46,7 +46,7 @@ We welcome contributions! 🚀
 
 Before contributing, please read the [CONTRIBUTING.md](https://github.com/eleven-dev-cafe/.github/blob/main/CONTRIBUTING.md).  
 
-</br>
+<br>
 
 ## 👨‍💻 Maintainer  
 `Gyarsilal Solanki`
@@ -57,13 +57,13 @@ Before contributing, please read the [CONTRIBUTING.md](https://github.com/eleven
 Join us to discuss ideas, share feedback, and coordinate contributions:  
 [![Join Discord](https://img.shields.io/discord/1405808666179014697?color=4CBB17&label=Join%20Us%20on%20Discord&logo=discord&logoColor=blue)](https://discord.gg/Zrc9x3ts)
 
-</br>
+<br>
 
 ## 📜 License  
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
 
-</br>
+<br>
 
 ## ⭐ Support  
 
