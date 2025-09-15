@@ -66,6 +66,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 <br>
 
 ## ⭐ Support  
+<img width="200" height="300" alt="Buy Me a Coffie Github Sponsor(UPI)" src="https://github.com/user-attachments/assets/6147979e-25cb-4d29-bcba-74b2193957a0" />
 
 If you find this project helpful, consider giving it a ⭐ to support! 
 
